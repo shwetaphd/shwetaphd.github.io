@@ -87,11 +87,15 @@ section h2 {
 }
 
 .site-title {
-    font-family: Georgia, 'Times New Roman', serif;
-    font-size: 3.2rem;
-    font-weight: 600;
+    font-family: Georgia, serif;
+    font-size: 3.5rem;
+    font-style: italic;
+    font-weight: 500;
+    color: #f8f9fa;
+    text-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
     margin: 0;
 }
+
 
 .subtitle {
     font-family: 'Poppins', sans-serif;
