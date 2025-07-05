@@ -5,78 +5,56 @@ body {
     color: #222;
 }
 
-.container {
+header {
     display: flex;
-    min-height: 100vh;
-}
-
-.sidebar {
-    width: 260px;
-    background-color: #4e88a0;
-    color: white;
-    padding: 2rem 1rem;
-    display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
+    padding: 1.2rem 2rem;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
-.sidebar h1 {
-    font-size: 1.5rem;
-    margin-top: 1rem;
-    text-align: center;
+.site-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #4e88a0;
 }
 
-.sidebar .logo img {
-    width: 120px;
-    height: auto;
-    border-radius: 100px;
-    margin-bottom: 1rem;
-}
-
-.sidebar nav {
-    margin-top: 2rem;
-    width: 100%;
-}
-
-.sidebar nav a {
-    display: block;
-    padding: 0.75rem 1rem;
-    margin: 0.3rem 0;
-    color: white;
+.nav-links a {
+    margin-left: 1.2rem;
     text-decoration: none;
+    color: #4e88a0;
     font-weight: 500;
-    border-radius: 6px;
-    transition: background 0.3s;
+    transition: color 0.3s;
 }
 
-.sidebar nav a:hover,
-.sidebar nav a.active {
-    background-color: #3c6f86;
+.nav-links a:hover,
+.nav-links a.active {
+    color: #2f5f70;
+    border-bottom: 2px solid #4e88a0;
+    padding-bottom: 2px;
 }
 
 .content {
-    flex: 1;
+    max-width: 850px;
+    margin: 2.5rem auto;
     padding: 2rem;
-    background-color: #eaf4f6;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
 }
 
-.content section {
-    background-color: white;
-    padding: 2rem;
-    border-radius: 12px;
-    max-width: 800px;
-    width: 100%;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+section {
     margin-bottom: 2rem;
 }
 
 section h2 {
     color: #4e88a0;
     border-bottom: 2px solid #4e88a0;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.3rem;
     margin-bottom: 1rem;
 }
 
@@ -87,4 +65,11 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #777;
+    margin: 3rem 0 1rem;
 }
