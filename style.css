@@ -86,3 +86,17 @@ section h2 {
 }
     color: #888;
 }
+
+.quote {
+    font-style: italic;
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+    color: #e0e0e0;
+}
+.site-title {
+    font-family: Georgia, serif;
+    font-size: 3.2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
