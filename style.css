@@ -112,3 +112,17 @@ section h2 {
     display: block;
     clear: both;
 }
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    margin-right: 12px;
+    font-size: 1.5em;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #5d6d7e; 
