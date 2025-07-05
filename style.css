@@ -7,15 +7,17 @@ body {
 }
 
 header {
-    background: #9b3c54;
+    background:  #55b4cd;
     color: white;
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 2.5rem 1rem;
 }
 
 header h1 {
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 3.2rem;       
+    font-weight: 700;
+    letter-spacing: 0.5px;
 }
 
 header p {
@@ -31,10 +33,14 @@ nav a {
     text-decoration: none;
     margin: 0 1rem;
     font-weight: 500;
+    padding-bottom: 4px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s;
 }
 
-nav a:hover {
-    text-decoration: underline;
+nav a:hover,
+nav a.active {
+    border-bottom: 2px solid white;
 }
 
 main {
