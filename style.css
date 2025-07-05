@@ -38,12 +38,7 @@ header {
     padding: 2.5rem 1rem;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 3.2rem;       
-    font-weight: 700;
-    letter-spacing: 0.5px;
-}
+
 
 header p {
     font-size: 1.2rem;
@@ -97,15 +92,14 @@ section h2 {
     margin: 0;
 }
 
-
-
 .subtitle {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.3rem;
-    font-weight: 100;
+    font-size: 1rem;         
+    font-weight: 300;        
+    text-align: center;
+    color: #eee;             
     margin-top: 0.3rem;
 }
-
 
 
 .quote {
