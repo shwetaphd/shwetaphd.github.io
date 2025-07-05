@@ -104,5 +104,6 @@ section h2 {
 }
 
 .square-bullets {
-    list-style-type: square;
+    list-style: square inside !important;
+    padding-left: 1.5rem;
 }
