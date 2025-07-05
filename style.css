@@ -85,20 +85,21 @@ section h2 {
     margin-bottom: 1rem;
 }
 
-.quote {
-    font-family: Georgia, serif;
-    text-align: center;
-    font-style: italic;
-    font-size: 1.1rem;
-    color: #555;
-    margin: 2rem 0; 
-}
-
-
 .site-title {
-    font-family: Georgia, serif;
+    font-family: 'Playfair Display', serif;
     font-size: 3.2rem;
-    font-weight: bold;
+    font-weight: 700;
+    font-style: italic;  
     margin: 0;
 }
+
+.quote {
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #5d6d7e;
+    margin: 2rem 0;
+}
+
 
