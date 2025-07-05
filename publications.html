@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Shweta Choudhary | Publications</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
   <script src="https://cdn.jsdelivr.net/npm/bibtex-js@2.0.0/dist/bibtex.min.js"></script>
+  <style>
+    .bibtex_display li {
+      margin-bottom: 1rem;
+      line-height: 1.6;
+    }
+    .journal {
+      font-style: italic;
+    }
+  </style>
 </head>
 <body>
   <div class="page-container">
@@ -24,22 +33,21 @@
     <main class="content">
       <section>
         <h2>Publications</h2>
-        <!-- Load BibTeX -->
+
         <bibtex src="publications.bib"></bibtex>
-        <div class="bibtex_template">
-          <ul class="square-bullets">
-            <li>
-              <span class="bibtexauthor"></span>,
-              <span class="bibtextitle" style="font-style: italic;"></span>.
-              <span class="bibtexjournal"></span>
-              <b><span class="bibtexyear"></span></b>,
-              <span class="bibtexvolume"></span>,
-              <span class="bibtexpages"></span>.
-              <a class="bibtexdoi" target="_blank">DOI</a>
-            </li>
-          </ul>
+        <ul class="square-bullets bibtex_display"></ul>
+
+        <!-- ACS-style BibTeX template -->
+        <div class="bibtex_template" style="display: none;">
+          <li>
+            <span class="bibtexauthor"></span>.
+            <span class="journal bibtexjournal"></span>
+            <b><span class="bibtexyear"></span></b>,
+            <i><span class="bibtexvolume"></span></i>,
+            <span class="bibtexpages"></span>.
+            <a class="bibtexdoi" target="_blank">DOI</a>
+          </li>
         </div>
-        <div class="bibtex_display"></div>
       </section>
     </main>
 
