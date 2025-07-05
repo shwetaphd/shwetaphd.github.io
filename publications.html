@@ -1,64 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Shweta Choudhary | Publications</title>
-
-   
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-
-    <script src="https://cdn.jsdelivr.net/npm/bibtex-js@2.0.0/dist/bibtex.min.js"></script>
-
-    <style>
-        .bibtexentry {
-            margin-bottom: 1.5rem;
-            line-height: 1.6;
-            font-size: 1rem;
-        }
-        .bibtexauthor {
-            font-weight: 500;
-        }
-        .bibtexjournal {
-            font-style: italic;
-        }
-        a[href^="https://doi.org"] {
-            margin-left: 8px;
-            color: #0056b3;
-            text-decoration: none;
-        }
-        a[href^="https://doi.org"]:hover {
-            text-decoration: underline;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Shweta Choudhary | Publications</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bibtex-js@2.0.0/dist/bibtex.min.js"></script>
 </head>
-
 <body>
-    <div class="page-container">
-        <header>
-            <h1 class="site-title">Shweta Choudhary</h1>
-            <p class="subtitle">Research Scholar</p>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="publications.html" class="active">Publications</a>
-                <a href="research.html">Research Interests</a>
-                <a href="presentations.html">Presentations</a>
-                <a href="skills.html">Skills & Experience</a>
-            </nav>
-        </header>
+  <div class="page-container">
+    <header>
+      <h1 class="site-title">Shweta Choudhary</h1>
+      <p class="subtitle">Research Scholar</p>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="publications.html" class="active">Publications</a>
+        <a href="research.html">Research Interests</a>
+        <a href="presentations.html">Presentations</a>
+        <a href="skills.html">Skills & Experience</a>
+      </nav>
+    </header>
 
-        <main class="content">
-            <section>
-                <h2>Publications</h2>
-                <!-- Load and render BibTeX file -->
-                <bibtex src="publications.bib"></bibtex>
-                <div id="bibtex_display"></div>
-            </section>
-        </main>
+    <main class="content">
+      <section>
+        <h2>Publications</h2>
+        <!-- Load BibTeX -->
+        <bibtex src="publications.bib"></bibtex>
+        <div class="bibtex_template">
+          <ul class="square-bullets">
+            <li>
+              <span class="bibtexauthor"></span>,
+              <span class="bibtextitle" style="font-style: italic;"></span>.
+              <span class="bibtexjournal"></span>
+              <b><span class="bibtexyear"></span></b>,
+              <span class="bibtexvolume"></span>,
+              <span class="bibtexpages"></span>.
+              <a class="bibtexdoi" target="_blank">DOI</a>
+            </li>
+          </ul>
+        </div>
+        <div class="bibtex_display"></div>
+      </section>
+    </main>
 
-        <footer>
-            <p>© 2025 Shweta Choudhary</p>
-        </footer>
-    </div>
+    <footer>
+      <p>© 2025 Shweta Choudhary</p>
+    </footer>
+  </div>
 </body>
 </html>
