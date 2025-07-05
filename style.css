@@ -87,11 +87,18 @@ section h2 {
 }
 
 .site-title {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Dancing Script', cursive;
     font-size: 3.2rem;
-    font-weight: bold;
+    font-weight: 700;
     margin: 0;
 }
+.subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-top: 0.3rem;
+}
+
 
 
 .quote {
@@ -123,3 +130,4 @@ section h2 {
     text-decoration: underline;
     color: #0073e6;
 }
+
