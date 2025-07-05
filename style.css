@@ -107,3 +107,8 @@ section h2 {
     list-style: square inside !important;
     padding-left: 1.5rem;
 }
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
