@@ -30,6 +30,7 @@ body {
     color: #222;
 }
 
+
 header {
     background:   #5d6d7e;
     color: white;
@@ -88,10 +89,10 @@ section h2 {
 .site-title {
     font-family: 'Roboto', sans-serif;
     font-size: 3.2rem;
-    font-weight: 700;
-    font-style: normal; 
+    font-weight: bold;
     margin: 0;
 }
+
 
 .quote {
     font-family: 'Dancing Script', cursive;
