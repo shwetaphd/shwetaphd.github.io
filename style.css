@@ -102,3 +102,7 @@ section h2 {
     color: #5d6d7e;
     margin: 2rem 0;
 }
+
+.square-bullets {
+    list-style-type: square;
+}
