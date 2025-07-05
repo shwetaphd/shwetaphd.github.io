@@ -89,13 +89,13 @@ section h2 {
 .site-title {
     font-family: 'Dancing Script', cursive;
     font-size: 3.2rem;
-    font-weight: 700;
+    font-weight: 600;
     margin: 0;
 }
 .subtitle {
     font-family: 'Poppins', sans-serif;
     font-size: 1.3rem;
-    font-weight: 400;
+    font-weight: 200;
     margin-top: 0.3rem;
 }
 
