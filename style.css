@@ -86,10 +86,10 @@ section h2 {
 }
 
 .site-title {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 3.2rem;
     font-weight: 700;
-    font-style: italic;  
+    font-style: normal; 
     margin: 0;
 }
 
@@ -101,5 +101,3 @@ section h2 {
     color: #5d6d7e;
     margin: 2rem 0;
 }
-
-
