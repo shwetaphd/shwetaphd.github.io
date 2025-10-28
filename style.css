@@ -64,10 +64,11 @@ nav a.active {
 
 
 main {
-  max-width: 1500px;
-  margin: 2rem auto;
-  padding: 0 1.5rem;
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
 }
+
 
 
 section {
