@@ -5,7 +5,7 @@ html, body {
     font-family: 'Poppins', sans-serif;
     background: #ffffff;
     color: #222;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 /* Page structure */
@@ -103,7 +103,7 @@ footer {
 .quote {
     font-family: 'Dancing Script', cursive;
     font-style: italic;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     text-align: center;
     color: #5d6d7e;
     margin: 2rem 0;
@@ -121,17 +121,6 @@ footer {
     text-decoration: underline;
     color: #0073e6;
 }
-
-/* Responsive */
-@media (max-width: 768px) {
-    main {
-        width: 95%;
-        font-size: 0.85rem;
-    }
-
-    .site-title {
-        font-size: 1.8rem;
-    }
 
     nav a {
         margin: 0 0.5rem;
