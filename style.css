@@ -1,5 +1,12 @@
+/* --- Base Layout --- */
 html, body {
     height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    color: #222;
+    background: #fff;
 }
 
 .page-container {
@@ -8,238 +15,101 @@ html, body {
     min-height: 100vh;
 }
 
-main.content {
-    flex: 1;
-}
-
-footer {
-    text-align: center;
-    padding: 1rem;
-    background: #f5f5f5;
-    font-size: 0.6rem;
-    color: #888;
-}
-
-
-body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #ffffff;
-    font-size: 0.8rem;
-    color: #222;
-}
-
-
+/* --- Header --- */
 header {
-    background:   #5d6d7e;
-    color: white;
+    background: #5d6d7e;
+    color: #fff;
     text-align: center;
-    padding: 2.5rem 1rem;
-}
-
-
-
-header p {
-    font-size: 1.2rem;
-}
-
-nav {
-    margin-top: 1rem;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 1rem;
-    font-weight: 500;
-    padding-bottom: 4px;
-    border-bottom: 2px solid transparent;
-    transition: border-bottom 0.3s;
-}
-
-nav a:hover,
-nav a.active {
-    border-bottom: 2px solid white;
-}
-
-main {
-    max-width: 900px;
-    margin: 2rem auto;
-    padding: 0 1.5rem;
-}
-
-
-section {
-    margin-bottom: 1.5rem;
-}
-
-section h2 {
-    color:   #5d6d7e;
-    border-bottom: 2px solid   #5d6d7e;
-    padding-bottom: 0.2rem;
-    margin-bottom: 1rem;
+    padding: 2rem 1rem;
 }
 
 .site-title {
     font-family: 'Playfair Display', serif;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: 700;
-    letter-spacing: 0.5px;
-    text-align: center;
-    color: white;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
     margin: 0;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
 
 .subtitle {
-    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     font-weight: 300;
     margin-top: 0.5rem;
 }
 
+/* --- Navigation --- */
+nav {
+    margin-top: 1rem;
+}
 
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: 500;
+    padding-bottom: 4px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+}
 
-.quote {
-    font-family: 'Dancing Script', cursive;
-    font-style: italic;
-    font-size: 1.4rem;
-    text-align: center;
-    color: #5d6d7e;
+nav a:hover,
+nav a.active {
+    border-bottom: 2px solid #fff;
+}
+
+/* --- Main Content --- */
+main {
+    flex: 1;
+    width: 100%;
+    max-width: 1100px; /* fills more of the screen */
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+/* --- Section Styling --- */
+section {
     margin: 2rem 0;
 }
 
+section h2 {
+    color: #5d6d7e;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-bottom: 2px solid #5d6d7e;
+    padding-bottom: 0.2rem;
+    margin-bottom: 0.8rem;
+}
+
+/* --- Paragraphs --- */
+p {
+    line-height: 1.8;          /* better readability */
+    max-width: 70ch;           /* comfortable line length */
+    margin-bottom: 1rem;
+}
+
+/* --- Lists --- */
 .square-bullets {
     list-style: square inside;
     padding-left: 1.5rem;
 }
-.clearfix::after {
-    content: "";
-    display: block;
-    clear: both;
-}
-.social-links a {
-    color: #0056b3;
-    text-decoration: none;
-    margin: 0 8px;
-    font-weight: 500;
-}
 
-.social-links a:hover {
-    text-decoration: underline;
-    color: #0073e6;
-}
-
-        .research-section {
-            margin-bottom: 2rem;
-        }
-
-        .research-block {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: flex-start;
-            gap: 1rem;
-            margin-top: 0.5rem;
-        }
-
-        .research-block img {
-            flex: 0 0 200px;
-            width: 100%;
-            max-width: 200px;
-        }
-
-        .research-block div {
-            flex: 1;
-            min-width: 250px;
-        }
-
-        h2 {
-            color: #5d6d7e;
-            margin-top: 1.5rem;
-            font-size: 1.2rem;
-            border-bottom: 2px solid #5d6d7e;
-            padding-bottom: 0.3rem;
-        }
-
-/* Blog Styling  */
-
-.blog-section {
-    margin-bottom: 2rem;
-}
-
-.blog-list {
-    margin-top: 1.5rem;
-}
-
-.blog-list article {
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 1rem;
-    margin-bottom: 1.5rem;
-}
-
-.blog-list h3 {
-    color: #5d6d7e;
-    margin-bottom: 0.3rem;
-    font-size: 1.2rem;
-    font-weight: 600;
-}
-
-.blog-list h3 a {
+/* --- Links --- */
+a {
     color: #5d6d7e;
     text-decoration: none;
     transition: color 0.3s;
 }
 
-.blog-list h3 a:hover {
-    color: #5d6d7e; 
+a:hover {
+    color: #5d6d7e;
     text-decoration: underline;
 }
 
-.blog-list .date {
-    color: #777;
-    font-size: 0.9rem;
-    margin-bottom: 0.5rem;
-}
-
-.blog-list .excerpt {
-    color: #333;
-    line-height: 1.6;
-}
-
-/* Individual blog post page */
-.post-content {
-    margin-top: 2rem;
-}
-
-.post-content h1 {
-    color: #5d6d7e;
-    margin-bottom: 0.5rem;
-    font-size: 1.2rem;
-    font-weight: 600;
-    border-bottom: 2px solid #5d6d7e;
-    padding-bottom: 0.3rem;
-}
-
-.post-content .date {
-    color: #777;
-    font-size: 0.9rem;
-    margin-bottom: 1.5rem;
-}
-
-.post-content p {
-    line-height: 1.7;
-    margin-bottom: 1rem;
-    color: #222;
-}
-
-.post-content a {
-    color: #5d6d7e;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-.post-content a:hover {
-    text-decoration: underline;
-    color: #5d6d7e;
+/* --- Footer --- */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #f5f5f5;
+    font-size: 0.7rem;
+    color: #888;
 }
