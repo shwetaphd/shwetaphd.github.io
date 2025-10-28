@@ -39,7 +39,7 @@ header {
 .site-title {
   font-family: 'Playfair Display', serif;
   font-size: 3.2rem;
-  font-weight: 700;
+  font-weight: 600;
   margin: 0;
   letter-spacing: 0.5px;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
@@ -74,7 +74,7 @@ nav a.active {
 h2 {
   color: #5d6d7e;
   font-size: 1.8rem;
-  font-weight: 600;
+  font-weight: 400;
   margin: 2.5rem 0 1rem;
   border-bottom: 2px solid #5d6d7e;
   padding-bottom: 0.3rem;
@@ -165,7 +165,7 @@ a:hover {
 .blog-list h3 {
   color: #5d6d7e;
   font-size: 1.3rem;
-  font-weight: 600;
+  font-weight: 400;
   margin-bottom: 0.3rem;
 }
 
@@ -186,7 +186,7 @@ a:hover {
 .post-content h1 {
   color: #5d6d7e;
   font-size: 1.8rem;
-  font-weight: 600;
+  font-weight: 400;
   border-bottom: 2px solid #5d6d7e;
   padding-bottom: 0.3rem;
   margin-bottom: 1rem;
