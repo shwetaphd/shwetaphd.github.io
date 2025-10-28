@@ -35,7 +35,7 @@ header {
     background:   #5d6d7e;
     color: white;
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 2.5rem 1rem;
 }
 
 
@@ -83,7 +83,7 @@ section h2 {
 
 .site-title {
     font-family: 'Playfair Display', serif;
-    font-size: 2.8rem;
+    font-size: 3.2rem;
     font-weight: 700;
     letter-spacing: 0.5px;
     text-align: center;
@@ -157,7 +157,7 @@ section h2 {
         h2 {
             color: #055a78;
             margin-top: 2.5rem;
-            font-size: 1.5rem;
+            font-size: 1.8rem;
             border-bottom: 2px solid #055a78;
             padding-bottom: 0.3rem;
         }
@@ -170,8 +170,6 @@ section h2 {
 
 .blog-list {
     margin-top: 1.5rem;
-    width: 100%; 
-    max-width: 100%;
 }
 
 .blog-list article {
@@ -183,7 +181,7 @@ section h2 {
 .blog-list h3 {
     color: #5d6d7e;
     margin-bottom: 0.3rem;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 600;
 }
 
