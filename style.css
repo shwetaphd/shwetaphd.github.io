@@ -16,7 +16,7 @@ footer {
     text-align: center;
     padding: 1rem;
     background: #f5f5f5;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     color: #888;
 }
 
@@ -26,6 +26,7 @@ body {
     margin: 0;
     padding: 0;
     background: #ffffff;
+    font-size: 0.9rem;
     color: #222;
 }
 
@@ -110,7 +111,7 @@ section h2 {
 }
 
 .square-bullets {
-    list-style: square inside !important;
+    list-style: square inside;
     padding-left: 1.5rem;
 }
 .clearfix::after {
@@ -138,7 +139,7 @@ section h2 {
             display: flex;
             flex-wrap: wrap;
             align-items: flex-start;
-            gap: 2rem;
+            gap: 1rem;
             margin-top: 1rem;
         }
 
