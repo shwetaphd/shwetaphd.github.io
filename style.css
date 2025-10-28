@@ -131,27 +131,61 @@ section h2 {
     color: #0073e6;
 }
 
+        .research-section {
+            margin-bottom: 2rem;
+        }
 
-/* Blog Page Styling             */
+        .research-block {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            gap: 2rem;
+            margin-top: 1rem;
+        }
+
+        .research-block img {
+            flex: 0 0 200px;
+            width: 100%;
+            max-width: 200px;
+        }
+
+        .research-block div {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        h2 {
+            color: #055a78;
+            margin-top: 2.5rem;
+            font-size: 1.8rem;
+            border-bottom: 2px solid #055a78;
+            padding-bottom: 0.3rem;
+        }
+
+/* Blog Styling  */
+
+.blog-section {
+    margin-bottom: 2rem;
+}
 
 .blog-list {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 
 .blog-list article {
     border-bottom: 1px solid #ddd;
-    padding: 1rem 0;
-    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .blog-list h3 {
-    margin: 0;
-    color: #5d6d7e;
-    font-weight: 600;
+    color: #055a78;
+    margin-bottom: 0.3rem;
+    font-size: 1.3rem;
 }
 
 .blog-list h3 a {
-    color: #5d6d7e;
+    color: #055a78;
     text-decoration: none;
     transition: color 0.3s;
 }
@@ -164,7 +198,7 @@ section h2 {
 .blog-list .date {
     color: #777;
     font-size: 0.9rem;
-    margin: 0.4rem 0;
+    margin-bottom: 0.5rem;
 }
 
 .blog-list .excerpt {
@@ -172,19 +206,21 @@ section h2 {
     line-height: 1.6;
 }
 
-/* Individual Blog Post Pages */
+/* Individual blog post page */
 .post-content {
     margin-top: 2rem;
 }
 
 .post-content h1 {
-    color: #5d6d7e;
-    font-size: 1.8rem;
+    color: #055a78;
     margin-bottom: 0.5rem;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #055a78;
+    padding-bottom: 0.3rem;
 }
 
 .post-content .date {
-    color: #888;
+    color: #777;
     font-size: 0.9rem;
     margin-bottom: 1.5rem;
 }
@@ -195,11 +231,10 @@ section h2 {
 }
 
 .post-content a {
-    color: #0056b3;
+    color: #055a78;
     text-decoration: none;
 }
 
 .post-content a:hover {
     text-decoration: underline;
 }
-
