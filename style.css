@@ -97,13 +97,15 @@ ul.square-bullets {
 
 /* Footer */
 footer {
+    width: 100%;
     text-align: center;
-    padding: 1rem;
+    padding: 1rem 0;
     background: #f5f5f5;
-    font-size: 0.8rem;
-    color: #888;
-    
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: auto; /* keeps footer at bottom */
 }
+
 
 /* Quote */
 .quote {
