@@ -503,7 +503,9 @@ main.content {
     margin-left: 0.5rem;
 }
 .timeline small { color: var(--muted); }
-
+.section .timeline {
+    margin-top: 1.25rem;
+}
 /* Publication cards */
 .pub-list {
     list-style: none;
