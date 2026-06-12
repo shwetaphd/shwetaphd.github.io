@@ -475,7 +475,7 @@ main.content {
 .timeline { list-style: none; padding: 0; margin: 0; }
 .timeline li {
     position: relative;
-    padding: 0 0 1rem 1.7rem;
+    padding: 0 0 2rem 2rem;
     border-left: 2px solid var(--border);
     line-height: 1.5;
 }
