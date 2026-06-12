@@ -1,4 +1,9 @@
-
+/*
+==================================================================
+  Shweta Choudhary — Academic Website
+  Modern light theme · 2026 redesign
+==================================================================
+*/
 
 /* 1. Design Tokens
 ------------------------------------------------------------------ */
@@ -483,7 +488,6 @@ main.content {
 .timeline li:last-child { padding-bottom: 0; }
 .timeline .role { display: inline-block; margin-bottom: 0.1rem; }
 .timeline small { display: inline-block; margin-top: 0.15rem; }
-
 .timeline li::before {
     content: "";
     position: absolute;
