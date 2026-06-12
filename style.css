@@ -470,7 +470,7 @@ main.content {
 }
 
 /* Education / timeline list */
-.timeline { list-style: none; padding: 0 0 0 1.5rem; margin: 0; }
+.timeline { list-style: none; padding: 0; margin: 1em; }
 .timeline li {
     position: relative;
     padding: 0 0 1rem 1.7rem;
