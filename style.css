@@ -476,24 +476,15 @@ main.content {
 .timeline li {
     position: relative;
     padding: 0 0 1rem 1.7rem;
-    /* border-left: 2px solid var(--border); */
+    border-left: 2px solid var(--border);
     line-height: 1.5;
 }
 .timeline li + li { padding-top: 0.1rem; }
 .timeline li:last-child { padding-bottom: 0; }
 .timeline .role { display: inline-block; margin-bottom: 0.1rem; }
 .timeline small { display: inline-block; margin-top: 0.15rem; }
+
 .timeline li::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 4px;
-    width: 14px;
-    height: 14px;
-    border-radius: 50%;
-    background: var(--surface);
-    border: 3px solid var(--accent);
-/* .timeline li::before {
     content: "";
     position: absolute;
     left: -8px; top: 3px;
@@ -501,7 +492,7 @@ main.content {
     border-radius: 50%;
     background: var(--surface);
     border: 3px solid var(--accent);
-} */
+}
 .timeline .role { font-weight: 600; color: var(--text); }
 .timeline .place { color: var(--text-soft); }
 .timeline .when {
