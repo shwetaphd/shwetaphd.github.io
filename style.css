@@ -472,10 +472,7 @@ main.content {
 }
 
 /* Education / timeline list */
-.section-title {
-    margin-bottom: 1.5rem;
-}
-.timeline { list-style: none; padding: 0; margin: 0; }
+.timeline { list-style: none; padding: 0; margin: 1.5rem 0 0 0; }
 .timeline li {
     position: relative;
     padding: 0 0 1rem 1.7rem;
