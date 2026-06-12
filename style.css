@@ -470,7 +470,7 @@ main.content {
 }
 
 /* Education / timeline list */
-.timeline { list-style: none; padding: 0; margin: 0; }
+.timeline { list-style: none; padding: 0 0 0 1.5rem; margin: 0; }
 .timeline li {
     position: relative;
     padding: 0 0 1rem 1.7rem;
@@ -503,9 +503,7 @@ main.content {
     margin-left: 0.5rem;
 }
 .timeline small { color: var(--muted); }
-.section .timeline {
-    margin-top: 1.25rem;
-}
+
 /* Publication cards */
 .pub-list {
     list-style: none;
