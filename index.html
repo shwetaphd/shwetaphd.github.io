@@ -54,8 +54,6 @@
                 <div class="stat"><div class="num">7</div><div class="lbl">Publications</div></div>
                 <div class="stat"><div class="num">44</div><div class="lbl">Citations</div></div>
                 <div class="stat"><div class="num">3</div><div class="lbl">h-index</div></div>
-                <div class="stat"><div class="num" id="visitor-count">0</div>div class="lbl">Visitors</div>
-            </div>
         </div>
         <div class="hero-photo reveal d2">
             <img src="images/ShwetaChoudhary.jpg" alt="Shweta Choudhary">
@@ -132,14 +130,5 @@
 
 <script src="script.js"></script>
 
-<script>
-fetch('https://api.countapi.xyz/hit/shwetaphd/homepage')
-  .then(res => res.json())
-  .then(data => {
-    document.getElementById('visitor-count').textContent = data.value;
-    console.log(data);
-  })
-  .catch(err => console.error(err));
-</script>
 </body>
 </html>
