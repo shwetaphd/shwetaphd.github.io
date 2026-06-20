@@ -888,3 +888,10 @@ footer .foot-social svg { width: 18px; height: 18px; }
     .card, .pub-card, .feature-card, .blog-card, .info-card { padding: 1.3rem; }
     .hero-stats { gap: 1.4rem; }
 }
+
+.visitor-counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
