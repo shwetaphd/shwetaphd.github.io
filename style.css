@@ -791,6 +791,12 @@ footer {
     color: var(--muted);
     font-size: 0.9rem;
 }
+.visitor-counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
 footer .foot-name {
     font-family: var(--font-display);
     font-weight: 600;
@@ -889,9 +895,3 @@ footer .foot-social svg { width: 18px; height: 18px; }
     .hero-stats { gap: 1.4rem; }
 }
 
-.visitor-counter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-}
