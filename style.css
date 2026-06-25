@@ -435,6 +435,10 @@ main.content {
     letter-spacing: -0.02em;
     margin: 0 0 1.6rem;
 }
+.section-title.subsection-title {
+    font-size: 1.25rem; /* adjust as desired */
+}
+
 .section-title::before {
     content: "";
     width: 6px; height: 26px;
@@ -911,6 +915,4 @@ footer .foot-social svg { width: 18px; height: 18px; }
     font-style:normal;
     font-weight:600;
 }
-.subsection-title {
-    font-size: 1.2rem;
-}
+
