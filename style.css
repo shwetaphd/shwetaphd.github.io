@@ -911,3 +911,6 @@ footer .foot-social svg { width: 18px; height: 18px; }
     font-style:normal;
     font-weight:600;
 }
+.subsection-title {
+    font-size: 1.5rem;
+}
