@@ -11,11 +11,13 @@
     --border:       #e8eaf2;
     --border-soft:  #eef0f6;
     
---accent:       #A78BFA;
---accent-2:     #C4B5FD;
---accent-deep:  #8B5CF6;
---accent-soft:  rgba(167, 139, 250, 0.12);
---accent-grad:  linear-gradient(135deg, #A78BFA 0%, #C4B5FD 100%);
+--accent:       #0F766E;
+--accent-2:     #5EEAD4;
+--accent-deep:  #115E59;
+--accent-soft:  rgba(15, 118, 110, 0.12);
+--accent-grad:  linear-gradient(135deg, #0F766E 0%, #5EEAD4 100%);
+--shadow-accent: 0 14px 34px rgba(15, 118, 110, 0.22);
+    
     /* --accent:       #5b53e8;
     --accent-2:     #06b6d4;
     --accent-deep:  #4a42d4;
@@ -26,7 +28,6 @@
     --shadow-md:  0 6px 18px rgba(24, 26, 38, 0.07), 0 2px 6px rgba(24, 26, 38, 0.04);
     --shadow-lg:  0 18px 40px rgba(24, 26, 38, 0.12), 0 6px 14px rgba(24, 26, 38, 0.06);
     /* --shadow-accent: 0 14px 34px rgba(91, 83, 232, 0.20); */
---shadow-accent: 0 14px 34px rgba(167, 139, 250, 0.25);
     
     --radius:    18px;
     --radius-sm: 12px;
@@ -258,7 +259,7 @@ main.content {
 .hero-text .eyebrow .dot {
     width: 7px; height: 7px; border-radius: 50%;
     background: var(--accent-2);
-    box-shadow: 0 0 0 0 rgba(196,181,253,0.55);
+    box-shadow: 0 0 0 0 rgba(94,234,212,0.5);
     /* box-shadow: 0 0 0 0 rgba(6,182,212,0.5); */
     animation: pulse 2.4s infinite;
 }
@@ -268,9 +269,9 @@ main.content {
     100% { box-shadow: 0 0 0 0 rgba(6,182,212,0); }
 } */
 @keyframes pulse {
-    0%   { box-shadow: 0 0 0 0 rgba(196,181,253,0.55); }
-    70%  { box-shadow: 0 0 0 8px rgba(196,181,253,0); }
-    100% { box-shadow: 0 0 0 0 rgba(196,181,253,0); }
+    0%   { box-shadow: 0 0 0 0 rgba(94,234,212,0.5); }
+    70%  { box-shadow: 0 0 0 8px rgba(94,234,212,0); }
+    100% { box-shadow: 0 0 0 0 rgba(94,234,212,0); }
 }
 .hero-text h1 {
     font-family: var(--font-display);
@@ -589,7 +590,8 @@ main.content {
     margin-left: auto;
     font-size: 0.8rem;
     font-weight: 600;
-    color: var(--accent-2);
+     color: var(--accent);
+    /* color: var(--accent-2); */
 }
 .pub-body { color: var(--text-soft); margin: 0; }
 .pub-body strong { color: var(--text); }
