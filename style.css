@@ -10,18 +10,24 @@
     --muted:        #8b90a5;
     --border:       #e8eaf2;
     --border-soft:  #eef0f6;
-
-    --accent:       #5b53e8;
+    
+--accent:       #A78BFA;
+--accent-2:     #C4B5FD;
+--accent-deep:  #8B5CF6;
+--accent-soft:  rgba(167, 139, 250, 0.12);
+--accent-grad:  linear-gradient(135deg, #A78BFA 0%, #C4B5FD 100%);
+    /* --accent:       #5b53e8;
     --accent-2:     #06b6d4;
     --accent-deep:  #4a42d4;
     --accent-soft:  rgba(91, 83, 232, 0.10);
-    --accent-grad:  linear-gradient(135deg, #6366f1 0%, #06b6d4 100%);
+    --accent-grad:  linear-gradient(135deg, #6366f1 0%, #06b6d4 100%); */
 
     --shadow-sm:  0 1px 2px rgba(24, 26, 38, 0.04), 0 2px 6px rgba(24, 26, 38, 0.04);
     --shadow-md:  0 6px 18px rgba(24, 26, 38, 0.07), 0 2px 6px rgba(24, 26, 38, 0.04);
     --shadow-lg:  0 18px 40px rgba(24, 26, 38, 0.12), 0 6px 14px rgba(24, 26, 38, 0.06);
-    --shadow-accent: 0 14px 34px rgba(91, 83, 232, 0.20);
-
+    /* --shadow-accent: 0 14px 34px rgba(91, 83, 232, 0.20); */
+--shadow-accent: 0 14px 34px rgba(167, 139, 250, 0.25);
+    
     --radius:    18px;
     --radius-sm: 12px;
     --radius-lg: 26px;
@@ -57,9 +63,14 @@ body::before {
     position: fixed;
     inset: 0;
     z-index: -1;
+    
     background:
+        radial-gradient(620px circle at 12% -5%, rgba(167, 139, 250, 0.14), transparent 60%),
+        radial-gradient(560px circle at 92% 8%, rgba(196, 181, 253, 0.12), transparent 55%);
+
+    /* background:
         radial-gradient(620px circle at 12% -5%, rgba(99, 102, 241, 0.10), transparent 60%),
-        radial-gradient(560px circle at 92% 8%, rgba(6, 182, 212, 0.10), transparent 55%);
+        radial-gradient(560px circle at 92% 8%, rgba(6, 182, 212, 0.10), transparent 55%); */
     pointer-events: none;
 }
 
