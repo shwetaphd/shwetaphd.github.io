@@ -11,12 +11,12 @@
     --border:       #e8eaf2;
     --border-soft:  #eef0f6;
     
---accent:       #0F766E;
---accent-2:     #5EEAD4;
---accent-deep:  #115E59;
---accent-soft:  rgba(15, 118, 110, 0.12);
---accent-grad:  linear-gradient(135deg, #0F766E 0%, #5EEAD4 100%);
---shadow-accent: 0 14px 34px rgba(15, 118, 110, 0.22);
+--accent:       #4F6D9B;
+--accent-2:     #8FA9C9;
+--accent-deep:  #395681;
+--accent-soft:  rgba(79,109,155,.12);
+--accent-grad:  linear-gradient(135deg,#4F6D9B 0%,#8FA9C9 100%);
+--shadow-accent:0 14px 34px rgba(79,109,155,.18);
     /* --accent:       #5b53e8;
     --accent-2:     #06b6d4;
     --accent-deep:  #4a42d4;
@@ -258,7 +258,7 @@ main.content {
 .hero-text .eyebrow .dot {
     width: 7px; height: 7px; border-radius: 50%;
     background: var(--accent-2);
-    box-shadow: 0 0 0 0 rgba(94,234,212,0.5);
+    box-shadow: 0 0 0 0 rgba(79,109,155,.18);
     /* box-shadow: 0 0 0 0 rgba(6,182,212,0.5); */
     animation: pulse 2.4s infinite;
 }
@@ -268,9 +268,9 @@ main.content {
     100% { box-shadow: 0 0 0 0 rgba(6,182,212,0); }
 } */
 @keyframes pulse {
-    0%   { box-shadow: 0 0 0 0 rgba(94,234,212,0.5); }
-    70%  { box-shadow: 0 0 0 8px rgba(94,234,212,0); }
-    100% { box-shadow: 0 0 0 0 rgba(94,234,212,0); }
+    0%   { box-shadow: 0 0 0 0 rgba(79,109,155,0.5); }
+    70%  { box-shadow: 0 0 0 8px rgba(79,109,155,0); }
+    100% { box-shadow: 0 0 0 0 rgba(79,109,155,0); }
 }
 .hero-text h1 {
     font-family: var(--font-display);
