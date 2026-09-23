@@ -300,7 +300,8 @@ main.content {
 .hero-photo {
     justify-self: center;
     position: relative;
-    width: clamp(220px, 30vw, 300px);
+    width: clamp(180px, 25vw, 240px);
+    /* width: clamp(220px, 30vw, 300px); */
     aspect-ratio: 1;
 }
 .hero-photo::before {
