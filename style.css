@@ -930,28 +930,3 @@ footer .foot-social svg { width: 18px; height: 18px; }
     font-style:normal;
     font-weight:600;
 }
-/* New */
-.about-layout {
-    display: grid;
-    grid-template-columns: 1fr 320px;
-    gap: 2.5rem;
-    align-items: center;
-}
-
-.about-card {
-    margin: 0;
-}
-
-.about-photo {
-    display: flex;
-    justify-content: center;
-}
-
-.about-photo img {
-    width: 100%;
-    max-width: 320px;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    border-radius: 18px;
-    display: block;
-}
