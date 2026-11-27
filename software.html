@@ -40,13 +40,16 @@
     <main class="content">
 
         <section class="section">
-            <h2 class="section-title reveal">Open-Source Software</h2>
+            <h2 class="section-title reveal">Open-Source Codes</h2>
             <div class="stack">
                 <article class="feature-card reveal">
                     <img src="images/frohmod_logo.svg" alt="frohmod" style="max-width:320px;width:100%;margin-bottom:0.8rem">
                     <h3>frohmod</h3>
-                    <p>A Python tool for mode-resolved analysis of Fr&ouml;hlich (polar-optical phonon) scattering from VASP DFPT calculations. It includes the direction-dependent non-analytical correction for LO&ndash;TO splitting, identifies which LO modes dominate the electron&ndash;phonon coupling, and quantifies the contribution of each element (e.g. Bi, Br, O) to those modes. It also writes V_Sim animations of the LO-mode displacements.</p>
-                    <p style="margin-top:0.8rem"><small style="color:var(--muted)">Python &middot; NumPy &middot; spglib &middot; MIT licence</small></p>
+                    <p><code>frohmod</code> performs a mode-resolved analysis of Fr&ouml;hlich (polar-optical phonon) scattering using the output of a standard VASP phonon calculation,
+                        by finite differences or DFPT, together with the Born effective charges and the high-frequency dielectric tensor. It applies the direction-dependent non-analytical correction 
+                        at &Gamma; to obtain the LO&ndash;TO splitting and the LO eigenmodes along any chosen direction. For each LO mode it evaluates the frequency, the Fr&ouml;hlich coupling strength 
+                        and its thermal weight at a given temperature, which identifies the modes that dominate polar-optical scattering, and it resolves each mode into elemental contributions. 
+                        The displacements of any selected mode can be exported as V_Sim animations and VESTA files, and the results are written as data tables and publication-ready plots.</p>
                     <p style="margin-top:0.6rem"><a href="https://github.com/shwetaphd/frohmod" target="_blank">GitHub repository &rarr;</a></p>
                 </article>
             </div>
