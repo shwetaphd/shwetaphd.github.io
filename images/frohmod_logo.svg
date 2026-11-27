@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 140" width="430" height="140" role="img" aria-label="frohmod logo">
+  <title>frohmod</title>
+  <style>
+    .word { fill: #1f2933; }
+    .sub  { fill: #52606d; }
+    .ring { stroke: #0f766e; }
+    .wave { stroke: #1f2933; }
+    @media (prefers-color-scheme: dark) {
+      .word { fill: #e6edf3; }
+      .sub  { fill: #9aa5b1; }
+      .ring { stroke: #2dd4bf; }
+      .wave { stroke: #e6edf3; }
+    }
+  </style>
+
+  <!-- polarisation cloud around the carrier -->
+  <circle class="ring" cx="70" cy="70" r="58" fill="none" stroke-width="3" stroke-dasharray="6 6"/>
+
+  <!-- longitudinal optical phonon: a wave of alternating ions -->
+  <path class="wave" d="M20,70 Q30,46 40,70 T60,70 T80,70 T100,70 T120,70" fill="none" stroke-width="3" stroke-linecap="round"/>
+  <g font-family="Helvetica, Arial, sans-serif" font-weight="700" font-size="13" fill="#ffffff" text-anchor="middle">
+    <circle cx="30" cy="58" r="9" fill="#dc2626"/><text x="30" y="62.5">+</text>
+    <circle cx="50" cy="82" r="9" fill="#2563eb"/><text x="50" y="86.5">−</text>
+    <circle cx="70" cy="58" r="9" fill="#dc2626"/><text x="70" y="62.5">+</text>
+    <circle cx="90" cy="82" r="9" fill="#2563eb"/><text x="90" y="86.5">−</text>
+    <circle cx="110" cy="58" r="9" fill="#dc2626"/><text x="110" y="62.5">+</text>
+  </g>
+
+  <!-- wordmark -->
+  <text class="word" x="148" y="82" font-family="Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="52" font-weight="600">frohmod</text>
+  <text class="sub" x="150" y="110" font-family="Helvetica, Arial, sans-serif" font-size="15">mode-resolved Fröhlich coupling</text>
+</svg>
